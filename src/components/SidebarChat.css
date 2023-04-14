@@ -1,0 +1,37 @@
+.sidebarChat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.sidebarChat:hover{
+    background-color: #202c336c;
+}
+
+.sidebarChat__left{
+    display: flex;
+    align-items: center;
+}
+
+.sidebarChat__leftChat{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.sidebarChat__leftChat .sentBy{
+    font-size: 12px;
+    color: white;
+    margin-top: 6px;
+}
+
+.sidebarChat__leftChat > p{
+    color: white;
+}
+
+.sidebarChat .time{
+    font-size: 12px;
+    color: white;
+}
